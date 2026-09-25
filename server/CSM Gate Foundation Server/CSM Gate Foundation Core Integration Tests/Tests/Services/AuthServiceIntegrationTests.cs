@@ -37,10 +37,11 @@ public class AuthServiceIntegrationTests
         SecurityDatabase securityDatabase = new();
         IUsersDepot usersDepot = new UsersDepot(securityDatabase, Disposer);
         IUserInfosDepot userInfosDepot = new UserInfosDepot(securityDatabase, Disposer);
-
+        ISessionsManager sessionsManager = new SessionsManager(contextAccessor);
         services.AddScoped<IUsersService, UsersService>(
                 (_) => new UsersService(
                         usersDepot,
+                        sessionsManager,
                         userInfosDepot
                     )
             );

@@ -2,7 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
-        <RootNamespace>CSM_Gate_Foundation_Core_Testing</RootNamespace>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>CSM_Gate_Foundation_Core_Testing</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
