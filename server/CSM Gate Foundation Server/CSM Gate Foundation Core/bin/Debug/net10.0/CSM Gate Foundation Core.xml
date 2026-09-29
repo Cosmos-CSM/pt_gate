@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSM Gate Foundation Core</name>
+    </assembly>
+    <members>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Errors.ServiceErrorEvents">
+            <summary>
+                Stores <see cref="T:CSM_Gate_Foundation_Core.Core.Errors.ServiceError"/> events.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.ServiceErrorEvents.READ_UNFOUND">
+            <summary>
+                Event used when at a [Read] operation the data is not found.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Errors.ServiceError">
+            <summary>
+                Represents an error object data for <see cref="T:CSM_Server_Core.Abstractions.Interfaces.IService"/> operation errors.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Core.Errors.ServiceError.#ctor(CSM_Gate_Foundation_Core.Core.Errors.ServiceErrorEvents,System.Exception)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="event">
+                Error event trigger.
+            </param>
+            <param name="exception">
+                System exception caught.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Errors.ServiceError`1">
+            <summary>
+                Represents an <see cref="T:CSM_Database_Core.Entities.Abstractions.Interfaces.IEntity"/> scoped error object data for <see cref="T:CSM_Server_Core.Abstractions.Interfaces.IService"/> operation errors.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Core.Errors.ServiceError`1.#ctor(CSM_Gate_Foundation_Core.Core.Errors.ServiceErrorEvents,System.Exception)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="event">
+                Error event trigger.
+            </param>
+            <param name="exception">
+                System exception caught.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents">
+            <summary>
+                <see cref="T:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError"/> error events.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.UNFOUND_USR">
+            <summary>
+                When the user wasn't found in the system.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.WRONG_PWD">
+            <summary>
+                When the user password is incorrect.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.DIS_SOLUTION">
+            <summary>
+                When the global solution access is disabled.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.UNAUTHORIZED">
+            <summary>
+                When the auth process finds out the user credentials doesn't have auth level to access requested feature.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.NO_REQ_CONTEXT">
+            <summary>
+                When the <see cref="M:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager.Auth(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)"/> requires the request context scope but is not being given.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents.UNK_TOKEN">
+            <summary>
+                When a being handled token is not found on internal references.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError">
+            <summary>
+                Represents an error object for <see cref="T:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager"/> operations.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError.#ctor(CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents,System.Exception)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="reason">
+                Specifies the <see cref="T:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents"/> that caused the exception.
+            </param>
+            <param name="system">
+                Indicates if the cause was due to a unrecognized system exception was caugth.
+            </param>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError.BuildAdviseContext">
+            <summary>
+                Builds the current <see cref="T:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError"/> advising contexts, determining wich advise to use.
+            </summary>
+            <returns>
+                An advise contexts dictionary.
+            </returns>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Core.Models.SessionData">
+            <summary>
+                Represents a server user session data.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.Token">
+            <summary>
+                Unique session token.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.Wildcard">
+            <summary>
+                Whether the current session has free master access.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.Expiration">
+            <summary>
+                When this session usage gets expired.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.UserInfo">
+            <summary>
+                <see cref="T:CSM_Security_Database_Core.Entities.UserInfo"/> data,
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.Permits">
+            <summary>
+                Stores the permits the <see cref="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.User"/> has access to, only for the scoped <see cref="T:CSM_Security_Database_Core.Entities.Solution"/> this session is related.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Core.Models.SessionData.User">
+            <summary>
+                <see cref="T:CSM_Security_Database_Core.Entities.User"/> data.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager">
+            <summary>
+                Represents a server sessions manager.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager.Auth(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <summary>
+                Authenticates an user from the given <paramref name="authInput"/> information.
+            </summary>
+            <param name="authInput">
+                Input parameters.
+            </param>
+            <returns>
+                The correct authenticated <see cref="T:CSM_Gate_Foundation_Core.Core.Models.SessionData"/> information.
+            </returns>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager.Get">
+            <summary>
+                Gets the <see cref="T:CSM_Gate_Foundation_Core.Core.Models.SessionData"/> from the transaction user. 
+            </summary>
+            <returns>
+                The found <see cref="T:CSM_Gate_Foundation_Core.Core.Models.SessionData"/> information.
+            </returns>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Managers.SessionsManager">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager"/>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Managers.SessionsManager._expirationGap">
+            <summary>
+                Expiration time aggregation for token refreshing, this value is aggregated to the current expirations to get a final expiration timestamp.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Managers.SessionsManager._sessionsBag">
+            <summary>
+                Stores all the current <see cref="T:CSM_Gate_Foundation_Core.Managers.SessionsManager"/> stored sessions keyed by the calculated unique token.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Managers.SessionsManager._tokensBag">
+            <summary>
+                Stores all the current calculated unique tokens managed, used to validate token related relations with no need to access <see cref="F:CSM_Gate_Foundation_Core.Managers.SessionsManager._sessionsBag"/> dictionary.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Managers.SessionsManager._contextAccessor">
+            <summary>
+                {dep} Allows to access and handle transaction contexts.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+                Creaes a new <see cref="T:CSM_Gate_Foundation_Core.Managers.SessionsManager"/> instance.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Managers.SessionsManager.Transaction">
+            <summary>
+                Gets the current transaction context data.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Managers.SessionsManager.TransactionAuth">
+            <summary>
+                Gets the current transaction context auth header value.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Managers.SessionsManager.TransactionAuthToken">
+            <summary>
+                Gets the current transaction context auth token being used.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.Auth(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.Get">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.ValidateUserAction(System.String,System.String,Microsoft.AspNetCore.Http.HttpContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.GenerateSession(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <summary>
+                Generates the <see cref="T:CSM_Gate_Foundation_Core.Core.Models.SessionData"/> from the given <paramref name="input"/>, checking if the account identity and password
+                matches solution stored ones.
+            </summary>
+            <returns>
+                Session related information.
+            </returns>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Managers.SessionsManager.StoreSession(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput,CSM_Gate_Foundation_Core.Core.Models.SessionData)">
+            <summary>
+                Internaly generates and stores into the current manager sessions the given <see cref="T:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput"/> information.
+            </summary>
+            <param name="input">
+                Authentication input information.
+            </param>
+            <param name="sessionData">
+                Session data to store.
+            </param>
+            <exception cref="T:CSM_Gate_Foundation_Core.Core.Errors.SessionManagerError">
+                For more details check innser <see cref="T:CSM_Gate_Foundation_Core.Core.Errors.AuthErrorEvents"/>.
+            </exception>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IActionsService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.Action"/> scoped operations service.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IAuthService">
+            <summary>
+                Represents a server authentication service operations.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IAuthService.Authenticate(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <summary>
+                Authenticates a given credentials subscribing the session into the current <see cref="T:CSM_Server_Core.Abstractions.Interfaces.ISessionManager"/> context.
+            </summary>
+            <param name="input">
+                Authentication credentials.
+            </param>
+            <returns>
+                The <see cref="T:CSM_Gate_Foundation_Core.Core.Models.SessionData"/> information referencing the given <see cref="T:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput"/> session.
+            </returns>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IFeaturesService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.Feature"/> scoped operations service.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IPermitsService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.Permit"/> scoped operations service.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IProfilesService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.Profile"/> scoped operations service.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.ISolutionsService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.Solution"/> scoped operations service.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IUsersService">
+            <summary>
+                Represents a <see cref="T:CSM_Security_Database_Core.Entities.User"/> scoped service operations.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IUsersService.Read(System.String)">
+            <summary>
+                Reads the <see cref="T:CSM_Security_Database_Core.Entities.User"/> data with the given <paramref name="username"/>.
+            </summary>
+            <param name="username">
+                User's identity.
+            </param>
+            <returns>
+                <see cref="T:CSM_Security_Database_Core.Entities.User"/> data.
+            </returns>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IUsersService.ReadPermits(System.Int64)">
+            <summary>
+                Reads the effective <see cref="T:CSM_Security_Database_Core.Entities.Permit"/> collection the given <see cref="T:CSM_Security_Database_Core.Entities.User"/>'s <paramref name="id"/> have access to.
+            </summary>
+            <param name="id">
+                Data storages <see cref="T:CSM_Database_Core.Entities.Abstractions.Interfaces.IEntity"/> identifier value.
+            </param>
+            <returns>
+                Effective user <see cref="T:CSM_Security_Database_Core.Entities.Permit"/> collection data.
+            </returns>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.ActionsService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IActionsService"/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.ActionsService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IActionsDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                Depot dependency.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.AuthService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IAuthService"/>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Services.AuthService._sessionsManager">
+            <summary>
+                Manager for session handling and context.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.AuthService.#ctor(CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="sessionManager"></param>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.AuthService.Authenticate(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <inheritdoc/>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.FeaturesService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IFeaturesService"/>.
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.FeaturesService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IFeaturesDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                Depot dependency.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput">
+            <summary>
+                Represents an authentication request data input.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput.Sign">
+            <summary>
+                Solution signature to authenticate.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput.Username">
+            <summary>
+                User identity.
+            </summary>
+        </member>
+        <member name="P:CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput.Password">
+            <summary>
+                User secret password.
+            </summary>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.PermitsService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IPermitsService"/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.PermitsService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IPermitsDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                Depot dependency.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.ProfilesService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IProfilesService"/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.ProfilesService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IProfilesDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                Depot dependency.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.SolutionsService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.ISolutionsService"/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.SolutionsService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.ISolutionsDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                Depot dependency.
+            </param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Core.Services.UsersService">
+            <inheritdoc cref="T:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IUsersService"/>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Services.UsersService._userInfosDepot">
+            <summary>
+                <see cref="T:CSM_Security_Database_Core.Entities.UserInfo"/> entity depot.
+            </summary>
+        </member>
+        <member name="F:CSM_Gate_Foundation_Core.Services.UsersService._sessionsManager">
+            <summary>
+                <see cref="T:CSM_Gate_Foundation_Core.Managers.SessionsManager"/> User session manager.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.#ctor(CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IUsersDepot,CSM_Gate_Foundation_Core.Managers.Abstractions.Interfaces.ISessionsManager,CSM_Security_Database_Core.Depots.Abstractions.Interfaces.IUserInfosDepot)">
+            <summary>
+                Creates a new instance.
+            </summary>
+            <param name="depot">
+                <see cref="T:CSM_Security_Database_Core.Entities.User"/> depot dependency.
+            </param>
+            <param name="sessionManager"> session manager dependency</param>
+            <param name="userInfosDepot">
+                <see cref="T:CSM_Security_Database_Core.Entities.UserInfo"/> depot dependency.
+            </param>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.Read(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.ReadPermits(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.GetVendors">
+            <summary>
+            Get the current user's vendors. If the user is a master user, it will return all enabled vendors. 
+            Otherwise, it will return only the vendors associated with the user.
+            </summary>
+            <returns></returns>
+            <exception cref="T:CSM_Database_Core.Core.Errors.DepotError`1"></exception>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.Create(CSM_Security_Database_Core.Entities.User[],System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Core.Services.UsersService.Update(CSM_Database_Core.Depots.Models.UpdateInput{CSM_Security_Database_Core.Entities.User})">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

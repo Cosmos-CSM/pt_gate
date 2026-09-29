@@ -1,0 +1,19 @@
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Server Core.deps.json
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Server Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Server Core.pdb
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Server Core.xml
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Core.pdb
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\bin\Debug\net10.0\CSM Gate Foundation Core.xml
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.csproj.AssemblyReference.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.AssemblyInfoInputs.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.AssemblyInfo.cs
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.sourcelink.json
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate.014A660C.Up2Date
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\refint\CSM Gate Foundation Server Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.xml
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\CSM Gate Foundation Server Core.pdb
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Server Core\obj\Debug\net10.0\ref\CSM Gate Foundation Server Core.dll

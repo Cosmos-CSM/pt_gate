@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CSM.GateFoundation.Core</id>
+    <version>1.0.0</version>
+    <authors>Renato Urrea</authors>
+    <readme>CHANGELOG.md</readme>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/Cosmos-CSM/csm_gate_foundation" commit="0dbc6eedccf13a6edf4d6cdd2acf2848c8008e2a" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="CSM.Security.Database.Core" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="CSM.Server.Core" version="2.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core\bin\Debug\net10.0\CSM Gate Foundation Core.dll" target="lib\net10.0\CSM Gate Foundation Core.dll" />
+    <file src="C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core\bin\Debug\net10.0\CSM Gate Foundation Core.xml" target="lib\net10.0\CSM Gate Foundation Core.xml" />
+    <file src="C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core\CHANGELOG.md" target="CHANGELOG.md" />
+  </files>
+</package>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSM Gate Foundation Server Core</name>
+    </assembly>
+    <members>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.ActionsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.ActionsController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IActionsService)">
+            <summary>
+                
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.AuthController">
+            <summary>
+                Controller class for authorization services endpoints.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.AuthController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IAuthService)">
+            <summary>
+                Creates a new instance.
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.AuthController.Authenticate(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)">
+            <summary>
+                HTTP service provider for <see cref="M:CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IAuthService.Authenticate(CSM_Gate_Foundation_Core.Services.Models.Inputs.AuthInput)"/> operation.
+            </summary>
+            <param name="input">
+                Service input.
+            </param>
+            <returns>
+                Service output.
+            </returns>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.FeaturesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.FeaturesController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IFeaturesService)">
+            <summary>
+                
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.PermitsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.PermitsController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IPermitsService)">
+            <summary>
+                
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.ProfilesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.ProfilesController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IProfilesService)">
+            <summary>
+                
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.Controllers.UsersController">
+            <summary>
+                
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.Controllers.UsersController.#ctor(CSM_Gate_Foundation_Core.Services.Abstractions.Interfaces.IUsersService)">
+            <summary>
+            
+            </summary>
+            <param name="usersService"></param>
+        </member>
+        <member name="T:CSM_Gate_Foundation_Server_Core.GateFoundationServer">
+            <summary>
+                Represents { Gate Foundation Server } initializer provider. 
+            </summary>
+        </member>
+        <member name="M:CSM_Gate_Foundation_Server_Core.GateFoundationServer.Start(System.String[],System.Action{Microsoft.AspNetCore.Builder.WebApplicationBuilder},System.Action{Microsoft.AspNetCore.Builder.WebApplication,CSM_Server_Core.Core.Models.ServerSettings},System.String)">
+            <summary>
+                Starts { Gate Foundation Core } server.
+            </summary>
+            <param name="sign">
+                [CSM] framework solution signature identifier.
+            </param>
+            <param name="args">
+                System application arguments.
+            </param>
+            <param name="buildApp">
+                Customization application builder process.
+            </param>
+            <param name="configureApp">
+                Customization application configuration process.
+            </param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,122 @@
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Gate Foundation Core Testing.exe
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Gate Foundation Core Testing.deps.json
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Gate Foundation Core Testing.runtimeconfig.json
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Gate Foundation Core Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Gate Foundation Core Testing.pdb
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Castle.Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Database Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Database Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Foundation Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Security Database Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Security Database Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Server Core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\CSM Server Core Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.ApplicationInsights.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Testing.Extensions.Telemetry.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Testing.Platform.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Microsoft.Testing.Extensions.MSBuild.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\Moq.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.assert.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.common.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.mtp-v1.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.core.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.runner.common.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\xunit.v3.runner.inproc.console.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\es\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\fr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\it\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ja\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ko\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pl\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ru\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\tr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\cs\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\de\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\es\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\fr\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\it\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ja\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ko\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pl\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ru\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\tr\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Platform.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.csproj.AssemblyReference.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.gentestingplatformentrypointinputcache.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.genautoregisteredextensionsinputcache.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\SelfRegisteredExtensions.cs
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.xUnit.v3.EntryPoint.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\XunitAutoGeneratedEntryPoint.cs
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.AssemblyInfoInputs.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.AssemblyInfo.cs
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.csproj.CoreCompileInputs.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.sourcelink.json
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate.0479CDCE.Up2Date
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\refint\CSM Gate Foundation Core Testing.dll
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.pdb
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\CSM Gate Foundation Core Testing.genruntimeconfig.cache
+C:\Users\Usuar\Desktop\workspaces\Cosmos (CSM)\pt_gate\server\CSM Gate Foundation Server\CSM Gate Foundation Core Testing\obj\Debug\net10.0\ref\CSM Gate Foundation Core Testing.dll
