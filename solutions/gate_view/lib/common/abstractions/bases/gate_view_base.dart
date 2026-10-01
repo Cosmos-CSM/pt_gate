@@ -13,15 +13,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 ///
-abstract class GateFoundationViewModuleBase extends ViewModuleBase {
+abstract class GateViewBase extends ViewModuleBase {
   /// Solution module signature identificator.
   final String signature;
 
   /// Creates a new instance.
-  const GateFoundationViewModuleBase({
-    super.key,
-    required this.signature,
-  });
+  const GateViewBase({super.key, required this.signature});
 
   /// Provides authentication user for development purposes ignoring login page and moving forward to the system home page.
   @protected
@@ -31,31 +28,15 @@ abstract class GateFoundationViewModuleBase extends ViewModuleBase {
   @Deprecated("This method mustn't be overriden since it is being handled by the base class.")
   List<IRoutingGraphData> bootstrapRouting() {
     return <IRoutingGraphData>[
-      AuthPageRoutingNode(
-        signature: signature,
-        authRedirected: GateFoundationViewRouteConstants.homePageRoute,
-      ),
+      AuthPageRoutingNode(signature: signature, authRedirected: GateFoundationViewRouteConstants.homePageRoute),
       NavigationLayoutRoutingGraphData(
         homeRouteData: GateFoundationViewRouteConstants.homePageRoute,
         routes: <IRoutingGraphData>[
-          RoutingGraphNode(
-            GateFoundationViewRouteConstants.homePageRoute,
-            pageBuilder: (BuildContext ctx, RoutingData routeData) => GateFoundationHomePage(),
-          ),
-          CategoryLayoutRoutingGraphData(
-            pages: <ICategoryLayoutPage>[
-              UsersCategoryPage(
-                routeData: GateFoundationViewRouteConstants.administrationUsersPageRoute,
-              ),
-            ],
-          ),
+          RoutingGraphNode(GateFoundationViewRouteConstants.homePageRoute, pageBuilder: (BuildContext ctx, RoutingData routeData) => GateFoundationHomePage()),
+          CategoryLayoutRoutingGraphData(pages: <ICategoryLayoutPage>[UsersCategoryPage(routeData: GateFoundationViewRouteConstants.administrationUsersPageRoute)]),
         ],
         navigationNodes: <INavigationLayoutNode>[
-          NavigationLayoutNode(
-            title: 'Administration',
-            routeData: GateFoundationViewRouteConstants.administrationUsersPageRoute,
-            icon: Icons.admin_panel_settings,
-          ),
+          NavigationLayoutNode(title: 'Administration', routeData: GateFoundationViewRouteConstants.administrationUsersPageRoute, icon: Icons.admin_panel_settings),
         ],
       ),
     ];
@@ -63,9 +44,7 @@ abstract class GateFoundationViewModuleBase extends ViewModuleBase {
 
   @override
   List<IThemeData> bootstrapTheming() {
-    return <IThemeData>[
-      GateFoundationViewDarkTheme(),
-    ];
+    return <IThemeData>[GateFoundationViewDarkTheme()];
   }
 
   @override
@@ -73,15 +52,7 @@ abstract class GateFoundationViewModuleBase extends ViewModuleBase {
     await initLocalStorage();
 
     /// --> Initializing { Gate Foundation Server Client }
-    GateFoundationServer gateFoundationServer = GateFoundationServer(
-      sign: 'CSMGF',
-      isRelease: !kDebugMode,
-      prodHost: Uri(
-        'localhost',
-        '',
-        port: 5195,
-      ),
-    );
+    GateFoundationServer gateFoundationServer = GateFoundationServer(sign: 'CSMGF', isRelease: !kDebugMode, prodHost: Uri('localhost', '', port: 5195));
 
     InjectorUtils.addSingleton(gateFoundationServer);
 

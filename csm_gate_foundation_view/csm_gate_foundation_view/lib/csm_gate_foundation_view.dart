@@ -12,7 +12,7 @@ export 'src/abstractions/abstractions_module.dart';
 //! --> Exporting [src]
 export 'src/gate_foundation_view_module.dart';
 
-export 'src/abstractions/bases/gate_foudation_view_module_base.dart';
+export '../../../solutions/gate_view/lib/common/abstractions/bases/gate_foudation_view_module_base.dart';
 
 //! --> Exportingb [Core]
 export 'src/core/theming/abstractions/bases/gate_foundation_view_theme_base.dart';
